@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Miltonian&display=swap");
+
+$mainHeaderColor: navy;
+$myLossesStatsColor: darkblue;
+$winnerDisplayTextColor: rgba(11, 70, 14, 0.897);
+$optionWeaponWinnerColor: darkslateblue;
+$winnerColor: crimson;
+
+.headerWrapper {
+  display: flex;
+  justify-content: center;
+  font-family: "Miltonian", cursive;
+}
+
+.header {
+  font-size: 55px;
+  color: $mainHeaderColor;
+}
+
+.subHeaders {
+  color: $optionWeaponWinnerColor;
+}
+
+.section {
+  padding: 30px;
+}
+
+.options,
+.weapons {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.computerChoise,
+.myChoise {
+  display: none;
+}
+
+.myWins {
+  color: $winnerColor;
+}
+
+.myLosses {
+  color: $myLossesStatsColor;
+}
+
+.winnerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winner {
+  font-size: 26px;
+  margin-bottom: 70px;
+  color: $winnerColor;
+}
+
+.compImage {
+  border-radius: 120px;
+  width: 350px;
+  height: 250px;
+}
+
+.meImage {
+  border-radius: 120px;
+  width: 260px;
+  height: 320px;
+}
+.tieImage {
+  border-radius: 120px;
+  width: 260px;
+  height: 320px;
+}
+
+.questionMark {
+  width: 300px;
+  height: 300px;
+}
+
+.winnerText {
+  font-size: 70px;
+  color: $winnerDisplayTextColor;
+}

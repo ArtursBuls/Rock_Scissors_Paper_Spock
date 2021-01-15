@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+
+$backgroundColor: rgba(0, 255, 255, 0.335);
+$boxShadowColor: black;
+$textHoverColor: rgb(248, 149, 1);
+$backgroundHoverColor: whitesmoke;
+
+.button {
+  margin-bottom: 15px;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: $backgroundColor;
+  border-radius: 55%;
+  outline: none;
+  width: 120px;
+  height: 120px;
+  border: none;
+  box-shadow: 12px 12px 14px 5px $boxShadowColor;
+  &:hover {
+    cursor: pointer;
+    background-color: $backgroundHoverColor;
+    color: $textHoverColor;
+  }
+}
